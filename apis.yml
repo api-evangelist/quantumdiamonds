@@ -1,7 +1,28 @@
 aid: quantumdiamonds
 name: Quantumdiamonds
-description: Quantumdiamonds is a company surfaced as a portfolio company of earlybird and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  QuantumDiamonds (QD) is a Munich-based German deep-tech company that develops
+  diamond-based quantum sensing systems for semiconductor inspection and failure
+  analysis. The company markets what it describes as the world's first
+  commercially available quantum sensing system for semiconductor inspection,
+  using nitrogen-vacancy (NV) diamond quantum microscopy to detect defects and
+  current-flow anomalies that traditional inspection methods miss. QuantumDiamonds
+  is a portfolio company of the venture firm Earlybird and was added to the API
+  Evangelist network as a company profile. As a quantum hardware and instrumentation
+  company, it does not currently expose a public developer API, SDK, or developer
+  portal; this profile captures its public web presence and company identity.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.qd-st.com/favicon.ico
 url: https://raw.githubusercontent.com/api-evangelist/quantumdiamonds/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,10 +32,33 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Quantum
+- Quantum Sensing
+- Semiconductor
+- Failure Analysis
+- Deep Tech
+- Hardware
+- Instrumentation
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
+common:
+- type: DomainSecurity
+  url: security/quantumdiamonds-domain-security.yml
+- type: Website
+  url: https://www.qd-st.com/
+- type: About
+  url: https://www.qd-st.com/about-us
+- type: Blog
+  url: https://www.qd-st.com/resources/press
+- type: Support
+  url: https://www.qd-st.com/contact
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
