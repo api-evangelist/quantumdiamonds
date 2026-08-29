@@ -11,6 +11,17 @@ description: >-
   Evangelist network as a company profile. As a quantum hardware and instrumentation
   company, it does not currently expose a public developer API, SDK, or developer
   portal; this profile captures its public web presence and company identity.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
